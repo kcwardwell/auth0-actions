@@ -30,12 +30,20 @@ const App = () => {
     console.log("user", user);
   };
 
+  const GetManagementAPIToken = async () => {
+    
+  }
+
   return (
     <>
       <div>
         <AuthNav />
         <button type="button" onClick={GetToken}>
           Get Token
+        </button>
+
+        <button type="button" onClick={GetManagementAPIToken}>
+          Get Managment API Token
         </button>
       </div>
     </>
